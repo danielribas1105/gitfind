@@ -1,0 +1,16 @@
+.container {
+    margin-top: 1rem;
+    border-bottom: 1px solid #999999;
+}
+
+.container h3 {
+    color: #539BF5;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.container p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0 2rem 0;
+}

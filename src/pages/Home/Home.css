@@ -1,0 +1,62 @@
+.container-main {
+    display: flex;
+    align-items: flex-start;
+}
+
+.background-img {
+    margin-top: -2rem;
+    width: 26rem;
+    height: 45rem;
+}
+
+.container-content {
+    width: 100%;
+    margin: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box-search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.input-search {
+    width: 50%;
+    margin: 1rem 1rem;
+    font-size: 1rem;
+    font-family: 'Geologica';
+    color: #999999;
+    border: 1px solid #999999;
+    background: transparent;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.input-search::placeholder {
+    color: #999999;
+}
+
+.btn-search {
+    font-size: 1rem;
+    font-family: 'Geologica';
+    color: #999999;
+    border: 1px solid #999999;
+    background-color: #2D333B;
+    border-radius: 2rem;
+    padding: 0.5rem 3rem;
+}
+
+.btn-search:hover {
+    color: white;
+    background-color: #1D2128;
+}
+
+.content-title {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+}
