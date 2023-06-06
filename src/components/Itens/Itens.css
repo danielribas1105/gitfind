@@ -9,6 +9,10 @@
     font-weight: 400;
 }
 
+.container a {
+    color: #E5E5E5;
+}
+
 .container p {
     font-size: 1rem;
     font-weight: 400;

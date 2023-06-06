@@ -1,11 +1,11 @@
 import './Itens.css';
 
-const Itens = () => {
+const Itens = ({title, link, description}) => {
     return (
         <div className='container'>
-            <h3>Nome repositório</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid saepe, temporibus voluptate mollitia porro magni ex quaerat? Voluptas aliquid repellat corporis! Ipsam animi accusamus, similique id dolorum voluptates magni iste.
-            </p>
+            <h3>{title}</h3>
+            <a href={link}>{link}</a>
+            <p>{description}</p>
         </div>
     );
 }
