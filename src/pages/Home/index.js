@@ -42,7 +42,7 @@ const handleGetDate = async () => {
             <input 
               type='text' 
               className='input-search' 
-              placeholder='@usuário' 
+              placeholder='Digite o nome de usuário' 
               value={user}
               onChange={evento => setUser(evento.target.value)}
             />
